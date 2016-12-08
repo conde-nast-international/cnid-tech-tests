@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "CNI Digital Interview",
   "main": "index.js",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "jasmine": "^2.5.2"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "jasmine test/*"
   },

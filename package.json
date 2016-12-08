@@ -1,0 +1,24 @@
+{
+  "name": "cnid-interview",
+  "version": "1.0.0",
+  "description": "CNI Digital Interview",
+  "main": "index.js",
+  "dependencies": {
+    "jasmine": "^2.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jasmine test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conde-nast-international/cnid-interview.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/conde-nast-international/cnid-interview/issues"
+  },
+  "homepage": "https://github.com/conde-nast-international/cnid-interview#readme"
+}

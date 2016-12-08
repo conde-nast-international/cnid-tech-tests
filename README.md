@@ -9,6 +9,7 @@ There is a JSON file containing 10 articles.  An article has fixed data such as 
 - The root of the site should display a list of the articles, with their title and picture.
 - Clicking an article should take you to a page that displays the article and update the url.
 - The article page should layout the content with styling for each type of content.  For example a pull quote may look like this:
+
 > Your pull quote may look something like this
 
 
@@ -25,16 +26,16 @@ You can submit your code however you want - send the details to your point of co
 
 ### FAQ
 
-Q: What browsers must I support?
+Q: What browsers must I support?  
 A: Latest firefox & chrome, but don't worry about any browser inconsistencies.
 
-Q: Can I use transpilers?
+Q: Can I use transpilers?  
 A: Yes, but you [may not need to](http://kangax.github.io/compat-table/es6/).
 
-Q: Can I use libraries, frameworks, etc?
+Q: Can I use libraries, frameworks, etc?  
 A: Yes, but please consider the 'What we are looking for?' guidelines.
 
-Q: Should my solution be client-side only/server-side only/client-server?
+Q: Should my solution be client-side only/server-side only/client-server?  
 A: That's up to you.  We are interested in how you solve the problem, so we don't want to force you down any particular route.
 
 ## Option 2

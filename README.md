@@ -8,7 +8,9 @@ There is a JSON file containing 10 articles.  An article has fixed data such as 
 
 - The root of the site should display a list of the articles, with their title and picture.
 - Clicking an article should take you to a page that displays the article and update the url.
-- The article page should layout the content with styling for each type of content.
+- The article page should layout the content with styling for each type of content.  For example a pull quote may look like this:
+> Your pull quote may look something like this
+
 
 ### What we are looking for
 

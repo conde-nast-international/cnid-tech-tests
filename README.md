@@ -1,8 +1,8 @@
 # Interview
 
-This is a coding exercise to help us assess candidates looking to join the team at Condé Nast International.  The test is intended to be completed at home, which we estimate should take around x-y hours.  We understand that your time is valuable, and appreciate any time that you contribute towards building a strong team here.
+This is a coding exercise to help us assess candidates looking to join the team at Condé Nast International.  The test is intended to be completed at home, and we expect you to spend no more than 1-2 hours on it.  If you haven't finished in that time, you can send us your progress - we don't want you to spend days on this.  We understand that your time is valuable, and appreciate any time that you contribute towards building a strong team here.  If you really cannot spare the time, you may want to take a look at Option 2.
 
-### Task
+## Option 1
 
 There is a JSON file containing 10 articles.  An article has fixed data such as the title and cover image, but also has a content field which is an array of objects that can be distinguished by the ```type``` property.  The possible types in this dataset are ```plaintext```, ```pull_quote``` and ```h2```. Using this JSON file as your data source we would like you to create a website that does the following:
 
@@ -36,3 +36,16 @@ A: Yes, but please consider the 'What we are looking for?' guidelines.
 
 Q: Should my solution be client-side only/server-side only/client-server?
 A: That's up to you.  We are interested in how you solve the problem, so we don't want to force you down any particular route.
+
+## Option 2
+
+If you have some personal code that you would be prepared to share with us, we can assess that instead.  The code should meet the following criteria:
+
+- It should be at least 1-2 hours of your own work
+- Ideally, it should involve an element of web development
+- It should demonstrate how you approach a problem
+- It should be something that you are able to discuss with us
+
+### Submission
+
+You can submit your code however you want - send the details to your point of contact.  Please include a README containing any setup instructions and keep the setup steps simple.

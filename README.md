@@ -64,8 +64,6 @@ Create a node.js 'Hello World' web application and deploy it to a free AWS accou
 - Monitoring is great but we don't want you to worry about it for now.
 - The same goes for CI servers.
 
-### What we are not looking for
-
 ## Submission
 
 You can submit your code however you want - send the details to your point of contact.  Please include a README containing any setup instructions and keep the setup steps simple.

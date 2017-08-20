@@ -23,13 +23,3 @@ variable "instance_port" {
 variable "health_check_path" {
   description = "The path on the instance the ELB can use for health checks. Do NOT include a leading slash."
 }
-
-# ---------------------------------------------------------------------------------------------------------------------
-# OPTIONAL MODULE PARAMETERS
-# These variables have defaults, but may be overridden by the operator.
-# ---------------------------------------------------------------------------------------------------------------------
-
-variable "lb_port" {
-  description = "The port the ELB listens on."
-  default = 80
-}

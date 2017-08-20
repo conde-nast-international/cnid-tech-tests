@@ -20,7 +20,7 @@ resource "aws_elb" "elb" {
   listener {
     instance_port = "${var.instance_port}"
     instance_protocol = "http"
-    lb_port = "${var.lb_port}"
+    lb_port = "${var.instance_port}"
     lb_protocol = "http"
   }
 }
@@ -44,7 +44,8 @@ resource "aws_security_group_rule" "all_outbound_all" {
   security_group_id = "${aws_security_group.elb.id}"
 }
 
-resource "aws_security_group_rule" "all_inbound_all" {
+resource "aws_security_group_rule" "all_inbound_ports" {
+  count = "${length(var.allow_inbound_ports_and_cidr_blocks)}"
   type = "ingress"
   from_port = "${element(keys(var.allow_inbound_ports_and_cidr_blocks), count.index)}"
   to_port = "${element(keys(var.allow_inbound_ports_and_cidr_blocks), count.index)}"
@@ -52,4 +53,3 @@ resource "aws_security_group_rule" "all_inbound_all" {
   cidr_blocks = ["${lookup(var.allow_inbound_ports_and_cidr_blocks, element(keys(var.allow_inbound_ports_and_cidr_blocks), count.index))}"]
   security_group_id = "${aws_security_group.elb.id}"
 }
-

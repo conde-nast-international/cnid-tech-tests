@@ -23,3 +23,9 @@ variable "instance_port" {
 variable "health_check_path" {
   description = "The path on the instance the ELB can use for health checks. Do NOT include a leading slash."
 }
+
+variable "allow_inbound_ports_and_cidr_blocks" {
+  description = "A map of port to CIDR block. For each entry in this map, the ESC Cluster will allow incoming requests on the specified port from the specified CIDR blocks."
+  type = "map"
+  default = {}
+}

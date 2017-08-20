@@ -1,0 +1,13 @@
+{
+    "name": "hello_world",
+    "version": "1.0.0",
+    "description": "Hello World on Node.js",
+    "author": "Khanh Nguyen <sonicintrusion01@gmail.com>",
+    "main": "hello.js",
+    "scripts": {
+      "start": "node hello.js"
+    },
+    "dependencies": {
+      "express": "^4.13.3"
+    }
+  }

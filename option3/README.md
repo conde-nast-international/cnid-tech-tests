@@ -67,6 +67,8 @@ docker push sonicintrusion/node-web-app:<env>
 
 ### As the Infrastructure Developer/Engineer
 
+#### New Infrastructure
+
 This requires that at least one container has been uploaded to the container registry.
 
 1. Pull down the code repo:
@@ -85,3 +87,7 @@ terraform apply
 ```
 
 **Note**: assumes you have sufficient permission in your IAM role to create additional IAM roles.
+
+#### Release and updates
+
+....

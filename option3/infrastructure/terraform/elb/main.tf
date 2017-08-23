@@ -1,7 +1,4 @@
-# ---------------------------------------------------------------------------------------------------------------------
-# CREATE AN ELB
-# ---------------------------------------------------------------------------------------------------------------------
-
+# Create ELB
 resource "aws_elb" "elb" {
   name = "${var.name}"
   subnets = ["${var.subnet_ids}"]
@@ -25,10 +22,7 @@ resource "aws_elb" "elb" {
   }
 }
 
-# ---------------------------------------------------------------------------------------------------------------------
-# CREATE A SECURITY GROUP THAT CONTROLS WHAT TRAFFIC CAN GO IN AND OUT OF THE ELB
-# ---------------------------------------------------------------------------------------------------------------------
-
+# Create SG for cluster access
 resource "aws_security_group" "elb" {
   name = "${var.name}"
   description = "The security group for the ${var.name} ELB"

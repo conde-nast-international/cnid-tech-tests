@@ -1,7 +1,4 @@
-# ---------------------------------------------------------------------------------------------------------------------
-# REQUIRED MODULE PARAMETERS
-# These variables must be passed in by the operator.
-# ---------------------------------------------------------------------------------------------------------------------
+# REQUIRED parameters
 
 variable "name" {
   description = "The name of the ECS Cluster."
@@ -24,10 +21,7 @@ variable "subnet_ids" {
   type = "list"
 }
 
-# ---------------------------------------------------------------------------------------------------------------------
-# OPTIONAL MODULE PARAMETERS
-# These variables have defaults, but may be overridden by the operator.
-# ---------------------------------------------------------------------------------------------------------------------
+# OPTIONAL parameters
 
 variable "allow_inbound_ports_and_cidr_blocks" {
   description = "A map of port to CIDR block. For each entry in this map, the ESC Cluster will allow incoming requests on the specified port from the specified CIDR blocks."
@@ -45,4 +39,3 @@ variable "allow_ssh_from_cidr_blocks" {
   type = "list"
   default = []
 }
-

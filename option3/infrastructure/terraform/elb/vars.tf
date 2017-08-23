@@ -1,7 +1,4 @@
-# ---------------------------------------------------------------------------------------------------------------------
-# REQUIRED MODULE PARAMETERS
-# These variables must be passed in by the operator.
-# ---------------------------------------------------------------------------------------------------------------------
+# REQUIRED parameters
 
 variable "name" {
   description = "The name of the ELB"
@@ -29,3 +26,5 @@ variable "allow_inbound_ports_and_cidr_blocks" {
   type = "map"
   default = {}
 }
+
+# No OPTIONAL parameters

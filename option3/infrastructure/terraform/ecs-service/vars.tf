@@ -1,7 +1,4 @@
-# ---------------------------------------------------------------------------------------------------------------------
-# REQUIRED MODULE PARAMETERS
-# These variables must be passed in by the operator.
-# ---------------------------------------------------------------------------------------------------------------------
+# REQUIRED parameters
 
 variable "name" {
   description = "The name of the ECS Service."
@@ -43,10 +40,7 @@ variable "elb_name" {
   description = "The name of the ELB with which this ECS Service should register."
 }
 
-# ---------------------------------------------------------------------------------------------------------------------
-# OPTIONAL MODULE PARAMETERS
-# These variables have defaults, but may be overridden by the operator.
-# ---------------------------------------------------------------------------------------------------------------------
+# OPTIONAL parameters
 
 variable "env_vars" {
   description = "The environment variables to make available in each ECS Task. Any time you update this variable, make sure to update var.num_env_vars too!"

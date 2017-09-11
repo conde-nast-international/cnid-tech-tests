@@ -1,0 +1,9 @@
+extends master.pug
+
+block content
+	for article in articles
+		article
+			img(src=article.cover alt='Link to ' + article.title)
+			h2
+				a(href='/article/' + article.id)
+					=article.title

@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 8px;
+}
+
+blockquote {
+    border-left: 6px solid grey;
+    padding-left: 12px;
+}
+
+img {
+    max-width: 300px;
+    width: 100%;
+}
+
+a {
+    display: block;
+}
+
+article {
+    border-bottom: 1px solid grey;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+article:last-of-type {
+    border-bottom: 0;
+    padding-bottom: 0;
+}

@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "CNI Digital Interview",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.15.4",
+    "pug": "^2.0.0-rc.4"
+  },
   "devDependencies": {
-    "jasmine": "^2.5.2"
+    "mocha": "^3.5.2",
+    "supertest": "^3.0.0"
   },
   "scripts": {
-    "test": "jasmine test/*"
+    "test": "mocha -R spec test/app.test.js"
   },
   "repository": {
     "type": "git",

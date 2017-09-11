@@ -1,0 +1,14 @@
+extends master.pug
+
+block content
+    article
+        h2=article.title
+        img(src=article.cover, alt=article.title + ' cover image')
+
+        for section in article.body
+            if section.type == 'plaintext'
+                p= section.body
+            if section.type == 'h2'
+                h2= section.body
+            if section.type == 'pull_quote'
+                blockquote= section.body

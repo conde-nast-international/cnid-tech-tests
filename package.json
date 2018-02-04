@@ -3,13 +3,6 @@
   "version": "1.0.0",
   "description": "CNI Digital Interview",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {
-    "jasmine": "^2.5.2"
-  },
-  "scripts": {
-    "test": "jasmine test/*"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/conde-nast-international/cnid-interview.git"
@@ -20,5 +13,106 @@
   "bugs": {
     "url": "https://github.com/conde-nast-international/cnid-interview/issues"
   },
-  "homepage": "https://github.com/conde-nast-international/cnid-interview#readme"
+  "homepage": "https://github.com/conde-nast-international/cnid-interview#readme",
+  "scripts": {
+    "cleanup": "rimraf dist/*",
+    "build:prod": "npm run cleanup && cross-env NODE_ENV=production webpack --config ./src/config/webpack.config.prod.babel.js --progress --hide-modules",
+    "build:dev": "npm run cleanup && cross-env NODE_ENV=development webpack --config ./src/config/webpack.config.dev.babel.js --progress --hide-modules",
+    "dev": "npm run build:dev && cross-env NODE_ENV=development node src/init",
+    "prod": "npm run build:prod && cross-env NODE_ENV=production node src/init",
+    "serve": "cross-env NODE_ENV=production node src/init",
+    "test": "jest"
+  },
+  "jest": {
+    "roots": [
+      "./"
+    ],
+    "verbose": true,
+    "testMatch": [
+      "**/?(*.)test.js?(x)"
+    ],
+    "coverageReporters": [
+      "html",
+      "text",
+      "text-summary"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|scss)$": "identity-obj-proxy"
+    },
+    "snapshotSerializers": [
+      "<rootDir>/node_modules/enzyme-to-json/serializer"
+    ],
+    "transform": {
+      "^.+\\.(js|jsx)$": "babel-jest",
+      "^.+\\.(css|scss)$": "jest-css-modules"
+    },
+    "globals": {
+      "NODE_ENV": "test"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "moduleDirectories": [
+      "node_modules"
+    ]
+  },
+  "dependencies": {
+    "babel-register": "^6.22.0",
+    "compression": "^1.6.2",
+    "express": "^4.14.1",
+    "express-handlebars": "^3.0.0",
+    "history": "^4.5.1",
+    "lodash": "^4.17.5",
+    "mmmagic": "^0.4.5",
+    "node-jsx": "^0.13.3",
+    "offline-plugin": "^4.6.1",
+    "react": "^15.6.1",
+    "react-router": "^3.0.2",
+    "static-asset": "^0.6.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.6",
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-jest": "^20.0.3",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-regenerator": "^6.24.1",
+    "babel-plugin-webpack-alias": "^2.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "cross-env": "^3.1.4",
+    "css-loader": "^0.26.2",
+    "enzyme": "^2.9.1",
+    "enzyme-to-json": "^1.5.1",
+    "eslint": "^3.16.1",
+    "extract-text-webpack-plugin": "^2.0.0",
+    "handlebars-loader": "^1.4.0",
+    "html-webpack-plugin": "^2.28.0",
+    "identity-obj-proxy": "^3.0.0",
+    "imagemin-webpack-plugin": "^1.5.0-beta.0",
+    "jest": "^20.0.4",
+    "jest-css-modules": "^1.1.0",
+    "node-sass": "^4.5.3",
+    "path": "^0.12.7",
+    "postcss-loader": "^1.3.2",
+    "postcss-smart-import": "^0.6.9",
+    "precss": "^1.4.0",
+    "react-dom": "^15.6.1",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "react-test-renderer": "^15.6.1",
+    "react-transform-hmr": "^1.0.4",
+    "rimraf": "^2.6.1",
+    "sass-loader": "^5.0.1",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-middleware": "^1.10.1",
+    "webpack-hot-middleware": "^2.17.1"
+  }
 }

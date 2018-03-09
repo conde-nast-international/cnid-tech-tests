@@ -1,0 +1,11 @@
+{{#if style}}
+    <% for (var index in htmlWebpackPlugin.files.css) { %>
+        <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css[index] %>" />
+    <% } %>
+{{/if}}
+
+{{#if script}}
+    <% for (var index in htmlWebpackPlugin.files.js) { %>
+        <script src="<%= htmlWebpackPlugin.files.js[index] %>"></script>
+    <% } %>
+{{/if}}

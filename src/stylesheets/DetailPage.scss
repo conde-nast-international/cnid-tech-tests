@@ -1,0 +1,56 @@
+.DetailPage {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 15px;
+
+  &-header {
+    display: flex;
+    flex-flow: column;
+  }
+
+  &-image {
+    text-align: center;
+    margin-right: 20px;
+
+    & img {
+      max-width: 200px;
+      border: 6px solid #f1f1f1;
+      padding: 15px;
+    }
+  }
+
+  &-title {
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  & h2 {
+    font-size: 24px;
+  }
+
+  & p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 15px;
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    &-title {
+      font-size: 24px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    &-header {
+      flex-flow: row nowrap;
+    }
+
+    &-title {
+      font-size: 30px;
+      align-self: flex-end;
+      text-align: left;
+    }
+  }
+}

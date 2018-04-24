@@ -1,4 +1,4 @@
-This is a coding exercise to help assess candidates looking to join our team at Condé Nast International as Full Stack Developers.
+This is a coding exercise to help assess candidates looking to join our team at Condé Nast International as Senior Full Stack Developers.
 
 The exercise is intended to be completed at your leisure in around 1-2 hours. It is not timed, so if you finish early or late that's fine too. We aren't looking for perfection, just hoping to get an idea of the way you work.
 

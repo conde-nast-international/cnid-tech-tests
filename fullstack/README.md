@@ -26,7 +26,7 @@ A Full Stack developer is someone with familiarity in each layer; you might be s
 
 ### Submission
 
-You can submit your code however you want (github/bitbucket/gitlab repo - git bundle - zip file)- send the details to your point of contact.
+You can submit your code however you want (github/bitbucket/gitlab repo or a [git bundle](https://git-scm.com/docs/git-bundle))- send the details to your point of contact.
 
 Please also include in the README any justifications you wish to mention in relation to your approach or technology choices. You may also add info here on anything you would add to the project if you were to spend further time on it.
 

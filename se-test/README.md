@@ -1,10 +1,10 @@
-This is a coding exercise to help assess candidates looking to join our team at Condé Nast International as Senior Full Stack Developers.
+# Overview
+This task is intended for people who interviews our software engineer roles:
+ - [Software Engineer](https://condenastuk.avature.net/careers/JobDetail/Software-Engineer/1667)
+ - [Senior Software Engineer](https://condenastuk.avature.net/careers/JobDetail/Senior-Software-Engineer/1412) 
+ - [Technical Lead Engineer](https://condenastuk.avature.net/careers/JobDetail/Technical-Lead-Software-Engineer/1468) 
 
-The exercise is intended to be completed at your leisure in around 1-2 hours. It is not timed, so if you finish early or late that's fine too. We aren't looking for perfection, just hoping to get an idea of the way you work.
-
-If you haven't finished in that time, you can send us your progress - we don't want you to spend days on this. We understand that your time is valuable, and appreciate any time that you contribute towards building a strong team here.
-
-If you cannot spare the time, you may want to take a look at Option 2.
+Please make sure you read [our expectations](../README.md#What we are looking for?) first before getting down to the following tasks:  
 
 ## Option 1
 
@@ -15,14 +15,6 @@ Running the app we should be able to see the latest **UK news** and give the abi
 Given the fact that this is a Full Stack challenge, we are expecting a Frontend application and a Backend application that communicate with each other.
 
 A Full Stack developer is someone with familiarity in each layer; you might be stronger on the frontend, or vice-versa. Feel free to focus more on what you know best, be creative and show us your skills!
-
-### What we are looking for
-
-* We anticipate that the website may have future requirements, so you should aim for maintainability with your solution
-* The JavaScript ecosystem changes quickly, so we like to see knowledge of JavaScript fundamentals
-* We want to discover how you write code day-to-day (from the folder structure, testing, naming point of view)
-* We don't want you to spend hours tweaking every pixel. Keep it simple.
-* Keep it simple (again :) )
 
 ### Submission
 

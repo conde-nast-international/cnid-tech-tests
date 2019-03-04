@@ -22,7 +22,7 @@ See ["how to submit your work"](../README.md#how-to-submit-code)
 ### FAQ
 
 Q: Should I commit my `newsapi.org` token?  
-A: Absolutely not. Provide a way we can easily plug it in
+A: No, but please provide one for us
 
 Q: What browsers must I support?  
 A: Latest Firefox & Chrome. Don’t worry about any browser inconsistencies.

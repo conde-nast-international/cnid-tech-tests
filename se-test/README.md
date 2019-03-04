@@ -17,10 +17,7 @@ Given the fact that this is a Full Stack challenge, we are expecting a Frontend 
 A Full Stack developer is someone with familiarity in each layer; you might be stronger on the frontend, or vice-versa. Feel free to focus more on what you know best, be creative and show us your skills!
 
 ### Submission
-
-You can submit your code however you want (github/bitbucket/gitlab repo or a [git bundle](https://git-scm.com/docs/git-bundle))- send the details to your point of contact.
-
-Please also include in the README any justifications you wish to mention in relation to your approach or technology choices. You may also add info here on anything you would add to the project if you were to spend further time on it.
+See ["how to submit your work"](../README.md#how-to-submit-code)
 
 ### FAQ
 

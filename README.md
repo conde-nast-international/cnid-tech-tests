@@ -6,6 +6,13 @@ This is a coding exercise to help us assess candidates looking to join the team 
  - [Software Engineer](se-test)
  - [Infrastructure Engineer](infra-test)   
 
+## How to submit code
+We prefer to see your work as a GIT repo with commits from which the app is built up.
+You can submit by sending up the link to a public git repository on Github, or if for some reason you'd 
+like to keep the submission only between us, use [git bundle](https://git-scm.com/docs/git-bundle) and submit the zipped work.
+
+Send the work to your **point of contact**. 
+
 ## What we are looking for?
  - The submitted code actually work? (Don't panic if it doesn't, if you could share the reason with us)
  - Do you pay attention to requirements and details?

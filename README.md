@@ -20,7 +20,6 @@ These points serve as a guide on what we look for in a code submission. Not all 
  - There is a README that instructs how to run the app
  - The app runs when you follow the README or `npm start` (or equivalent)
  - There are reasonably thorough tests
- - The tests were written/committed before the code was
  - The file/folder structure is intuitive
  - Code style is consistent
  - Chosen technologies are appropriate

@@ -14,9 +14,15 @@ like to keep the submission only between us, use [git bundle](https://git-scm.co
 Send the work to your **point of contact**. 
 
 ## What we are looking for?
- - The submitted code actually work? (Don't panic if it doesn't, if you could share the reason with us)
- - Do you pay attention to requirements and details?
- - Do you write tests? What's your approach to test the code you write.
- - Do you document stuff you've built, design decisions, how-tos and explain it's scopes and limitations? 
- - We don't expect you to use cutting-edge libraries on the code, consider what fits the purposes.
- - We don't want you to spend hours tweaking pixel.  Keep it simple.
+These points serve as a guide on what we look for in a code submission. Not all points have to be met
+ - The solution fulfils the brief
+ - There is some attempt at creating documentation
+ - There is a README that instructs how to run the app
+ - The app runs when you follow the README or `npm start` (or equivalent)
+ - There are reasonably thorough tests
+ - The tests were written/committed before the code was
+ - The file/folder structure is intuitive
+ - Code style is consistent
+ - Chosen technologies are appropriate
+ - Complex sections of code are readable/commented/justified
+ - Not over-simplified or over-engineered

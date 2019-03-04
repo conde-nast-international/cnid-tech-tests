@@ -37,13 +37,14 @@ Q: Can I use transpilers?
 A: Yes, but you [may not need to](http://kangax.github.io/compat-table/es6/).
 
 Q: Can I use libraries, frameworks, etc?  
-A: Yes...but please consider the 'What we are looking for?' guidelines.
+A: Yes...but please consider ["What we are looking for?"](../README.md#What we are looking for?) guidelines.
 
 ## Option 2
 
 If you have some existing code that you would be prepared to share with us, we can look at that instead. The code should meet the following criteria:
 
-* It should be at least 1-2 hours of your own work
+* It should be similar hours of your own work as with Option 1
 * Ideally, it should involve an element of web development
 * It should demonstrate how you approach a problem
 * It should be something that you are able to discuss with us
+* It better involves both client and server-side skills 

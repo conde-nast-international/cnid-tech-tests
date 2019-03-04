@@ -37,7 +37,7 @@ Q: Can I use transpilers?
 A: Yes, but you [may not need to](http://kangax.github.io/compat-table/es6/).
 
 Q: Can I use libraries, frameworks, etc?  
-A: Yes...but please consider ["What we are looking for?"](../README.md#What we are looking for?) guidelines.
+A: Yes... but please consider ["What we are looking for?"](../README.md#What we are looking for?) guidelines.
 
 ## Option 2
 

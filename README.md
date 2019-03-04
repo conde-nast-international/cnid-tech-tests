@@ -1,6 +1,6 @@
 # Overview
 
-This is a coding exercise to help us assess candidates looking to join the team at Condé Nast International.  The test is intended to be completed at home, and we expect you to spend no more than half a day working it out. We appreciate the time you spent on it and will having it examined by one of our engineer, we will go through your submitted work together when you're invited to meet us face-to-face.        
+This is a coding exercise to help us assess candidates looking to join the team at Condé Nast International.  The test is intended to be completed at home and we expect you to spend no more than half a day working on it. We appreciate the time you spend on it and we will go through your submitted work together when you're invited to meet us face-to-face.        
 
 ## Which test shall I pick?
  - [Software Engineer](se-test)

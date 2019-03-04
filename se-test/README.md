@@ -27,7 +27,7 @@ A: Absolutely not. Provide a way we can easily plug it in
 Q: What browsers must I support?  
 A: Latest Firefox & Chrome. Don’t worry about any browser inconsistencies.
 
-Q: What version of node must I support?  
+Q: What version of Node must I support?  
 A: >= 8
 
 Q: Should I deploy the application somewhere it is publicly reachable?

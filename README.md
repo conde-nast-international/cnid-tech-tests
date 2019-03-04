@@ -8,7 +8,7 @@ This is a coding exercise to help us assess candidates looking to join the team 
 
 ## How to submit code
 We prefer to see your work as a GIT repo with commits from which the app is built up.
-You can submit by sending up the link to a public git repository on Github, or if for some reason you'd 
+You can submit by sending up the link to a public git repository on Github, or if you'd 
 like to keep the submission only between us, use [git bundle](https://git-scm.com/docs/git-bundle) and submit the zipped work.
 
 Send the work to your **point of contact**. 

@@ -21,7 +21,7 @@ See ["how to submit your work"](../README.md#how-to-submit-code)
 
 ### FAQ
 
-Q: Shall I provide my `newsapi.org` token?  
+Q: Should I commit my `newsapi.org` token?  
 A: Absolutely not. Provide a way we can easily plug it in
 
 Q: What browsers must I support?  

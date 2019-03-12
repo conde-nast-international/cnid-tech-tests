@@ -1,16 +1,16 @@
 # Overview
-This task is intended for people who interviews our software engineer roles:
+This task is intended for people who interview for our Software Engineer roles:
  - [Software Engineer](https://condenastuk.avature.net/careers/JobDetail/Software-Engineer/1667)
  - [Senior Software Engineer](https://condenastuk.avature.net/careers/JobDetail/Senior-Software-Engineer/1412) 
  - [Technical Lead Engineer](https://condenastuk.avature.net/careers/JobDetail/Technical-Lead-Software-Engineer/1468) 
 
-Please make sure you read [our expectations](../README.md#What we are looking for?) first before getting down to the following tasks:  
+Please make sure you read [our expectations](../README.md#what-we-are-looking-for) first before starting the following tasks:  
 
 ## Option 1
 
 Build a JavaScript application that shows the latest news from the United Kingdom, using the [newsapi.org](https://newsapi.org) service.
 
-Running the app we should be able to see the latest **UK news** and give the ability to the user to filter them by keywords (see [everything endpoint api](https://newsapi.org/docs/endpoints/everything)). Optionally clicking on a news the user will navigate to an individual article page.
+Running the app we should be able to see the latest **UK news** and give the user the ability to filter them by keywords (see [everything endpoint api](https://newsapi.org/docs/endpoints/everything)). Optionally clicking on a news the user will navigate to an individual article page.
 
 Given the fact that this is a Full Stack challenge, we are expecting a Frontend application and a Backend application that communicate with each other.
 
@@ -37,7 +37,7 @@ Q: Can I use transpilers?
 A: Yes, but you [may not need to](http://kangax.github.io/compat-table/es6/).
 
 Q: Can I use libraries, frameworks, etc?  
-A: Yes... but please consider ["What we are looking for?"](../README.md#What we are looking for?) guidelines.
+A: Yes... but please consider ["What we are looking for?"](../README.md#what-we-are-looking-for) guidelines.
 
 ## Option 2
 

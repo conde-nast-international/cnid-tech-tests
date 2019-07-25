@@ -47,4 +47,4 @@ If you have some existing code that you would be prepared to share with us, we c
 * Ideally, it should involve an element of web development
 * It should demonstrate how you approach a problem
 * It should be something that you are able to discuss with us
-* It better involves both client and server-side skills 
+* It should involve both client and server-side skills 

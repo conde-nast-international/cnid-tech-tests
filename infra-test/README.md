@@ -2,7 +2,7 @@
 
 ## Context
 
-This is a coding exercise to help us assess candidates looking to join the Infrastructure Engineering team at Condé Nast International, we want to discover how you handle infrastructure day-to-day.  We appreciate that your time is valuable, which is why we’ve designed this exercise to be completed in around 2 hours. If you cannot spare the time, you may want to consider option 2.
+This is a coding exercise to help us assess candidates looking to join the Infrastructure Engineering team at Condé Nast, we want to discover how you handle infrastructure day-to-day.  We appreciate that your time is valuable, which is why we’ve designed this exercise to be completed in around 2 hours. If you cannot spare the time, you may want to consider option 2.
  
 ### Things we like
 

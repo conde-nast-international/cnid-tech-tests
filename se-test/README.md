@@ -1,8 +1,5 @@
 # Overview
-This task is intended for people who interview for our Software Engineer roles:
- - [Software Engineer](https://condenastuk.avature.net/careers/JobDetail/Software-Engineer/1667)
- - [Senior Software Engineer](https://condenastuk.avature.net/careers/JobDetail/Senior-Software-Engineer/1412) 
- - [Technical Lead Engineer](https://condenastuk.avature.net/careers/JobDetail/Technical-Lead-Software-Engineer/1468) 
+This task is intended for people who interview for our Software Engineer roles.
 
 Please make sure you read [our expectations](../README.md#what-we-are-looking-for) first before starting the following tasks:  
 
@@ -10,9 +7,9 @@ Please make sure you read [our expectations](../README.md#what-we-are-looking-fo
 
 Build a JavaScript application that shows the latest news from the United Kingdom, using the [newsapi.org](https://newsapi.org) service.
 
-Running the app we should be able to see the latest **UK news** and give the user the ability to filter them by keywords (see [everything endpoint api](https://newsapi.org/docs/endpoints/everything)). Optionally clicking on a news the user will navigate to an individual article page.
+Running the app we should be able to see the latest **UK news**. The user should have the ability to filter by keywords (see [everything endpoint api](https://newsapi.org/docs/endpoints/everything)). Optionally, if the user clicks on a news item it will navigate to a page displaying the full news article selected.
 
-Given the fact that this is a Full Stack challenge, we are expecting a Frontend application and a Backend application that communicate with each other.
+This is a full stack challenge and we are expecting both a Frontend application and a Backend application that communicate with each other.
 
 A Full Stack developer is someone with familiarity in each layer; you might be stronger on the frontend, or vice-versa. Feel free to focus more on what you know best, be creative and show us your skills!
 

@@ -2,7 +2,11 @@
 
 ## Context
 
-This is a coding exercise to help us assess candidates looking to join the Infrastructure Engineering team at Condé Nast, we want to discover how you handle infrastructure day-to-day.  We appreciate that your time is valuable, which is why we’ve designed this exercise to be completed in around 2 hours. If you cannot spare the time, you may want to consider option 2.
+In the final stage of our interview process we want to discover how you handle infrastructure day-to-day. In preparation for the interview we request you complete the following task.
+
+This is a coding exercise to help us assess candidates looking to join the Infrastructure Engineering team at Condé Nast. It is not a pass or fail, but it will be used as the basis for questions and discussion in the interview.   
+We appreciate that your time is valuable, which is why we’ve designed this exercise to be completed in around 1 hour. If you cannot spare the time, you may want to consider option 2.
+
  
 ### Things we like
 
@@ -18,7 +22,9 @@ This is a coding exercise to help us assess candidates looking to join the Infra
 
 ## Option 1
 
-Create a node.js 'Hello World' web application and deploy it to a Cloud Infrastructure, such as an AWS account, using appropriate tools and best practices.  When deployed, the root url should display 'Hello World'. 
+Create a simple 'Hello World' web application (for example, node.js) and deploy it to a Cloud Infrastructure, such as an AWS account, using appropriate tools and best practices.  When deployed, the root url should display 'Hello World'. 
+
+** Please note:  The application is not the important factor in this, it is the infrastructure we will want to discuss.**
 
 ## Option 2
 

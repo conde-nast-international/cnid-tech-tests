@@ -4,7 +4,7 @@ This is a coding exercise to help us assess candidates looking to join the team 
 
 ## Which test shall I pick?
  - [Software Engineer](se-test)
- - [Infrastructure Engineer](infra-test)   
+ - [Infrastructure Engineer](infra-task)   
 
 ## How to submit code
 We prefer to see your work as a GIT repo with commits from which the app is built up.

@@ -2,7 +2,7 @@
 
 1. We want to make sure that you are a good fit to the culture and the work ethic of the team and company.
 1. We ask that it is returned within 3 working days of receiving if possible but please let us know if you require additional time. 
-1. This prep work is not time restricted - we do not force a maximum time limit to complete it - though it is suggested to be completed in approximately 1-2 hours. There is also no minimum time restriction.
+1. This prep work is not time restricted - we do not force a maximum time limit to complete it - though it is suggested to be completed in approximately 1 hour. There is also no minimum time restriction.
 1. We want to see what you can achieve within the time that you have: how you approach the task and how you deal with the complexity of the solution. Whether you can complete the solution or not, the importance of showing your development skills is paramount.
 1. We know you have good infrastructure and operations background. We want you to demonstrate that experience in the short time you take on this task.
 1. The application is not the important factor in this, it is the infrastructure we will want to discuss.

@@ -3,7 +3,7 @@ This task is intended for people who interview for our iOS Software Engineer rol
 
 Please make sure you read [our expectations](../README.md#what-we-are-looking-for) first before starting the following tasks.
 Take your time to polish your project. 
-Testing is very important for us, add tests where is possible and design the app in a way that should be easy to be tested.
+At Conde Nast we unit test our code and strive to allow code design to be guided by these. Please add unit tests where possible in your solution. Feel free to use XCTest or, if it's your preference, a 3rd party utility like Quick/Nimble
 
 ## iOS News App
 

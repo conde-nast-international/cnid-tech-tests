@@ -13,15 +13,15 @@ Running the app we should be able to see a list with the latest **US top headlin
 Each news item in the list should have the description of the article, the author, and the image associated to it. 
 If the news doesn't have an image, present an image placeholder of your choice.
 
-If the user clicks on a news item it will navigate to a page displaying the full news article selected.
+If the user clicks on a news item it will navigate to a new screen displaying the full news article selected, and some info regarding it.
 
-In the news detail screen the app should also show the number of **likes** and the number of **comments** the news item has.
+The additional info are the number of **likes** and the number of **comments** the news item has.
 That information can be retrieved from two internal not authenticated endpoints: 
     * `https://cn-news-info-api.herokuapp.com/likes/<ARTICLEID>` 
     * `https://cn-news-info-api.herokuapp.com/comments/<ARTICLEID>`
 
 The  `<ARTICLEID>`  is the article URL without the scheme and with the `/` replaced with a `-`.
-For the article `https://www.cnn.com/2020/07/20/us/portland-protester-navy-veteran-beaten/index.html` the `ARTICLEID` is `www.cnn.com-2020-07-20-us-portland-protester-navy-veteran-beaten-index.html`
+For the article `https://www.theverge.com/2020/7/21/21332300/nikon-z5-full-frame-mirrorless-camera-price-release-date-specs/index.html` the `ARTICLEID` is `www.theverge.com-2020-7-21-21332300-nikon-z5-full-frame-mirrorless-camera-price-release-date-specs-index.html`
 
 The app should have tests around the functionalities.
 Although UI and UX are important, the goal of this demo is to show your thought process and how you architect your application. The design should take into consideration features that might be added in the future, like for example, offline reading, bookmarking, etc.

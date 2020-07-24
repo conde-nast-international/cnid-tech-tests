@@ -1,11 +1,12 @@
 # Overview
-This task is intended for people who interview for our iOS Software Engineer roles.
+This assessment is intended for people who interview for our iOS Software Engineer roles. There are three options for candidates completing this assessment; please read through each carefully and let us know which you would prefer to use.
 
-Please make sure you read [our expectations](../README.md#what-we-are-looking-for) first before starting the following tasks.
-Take your time to polish your project. 
-At Conde Nast we unit test our code and strive to allow code design to be guided by these. Please add unit tests where possible in your solution. Feel free to use XCTest or, if it's your preference, a 3rd party utility like Quick/Nimble
+## General assessment criteria
+ * Please make sure you read [our expectations](../README.md#what-we-are-looking-for) first before starting the following tasks.
+ * Take your time to polish your project.
+ * At Conde Nast we unit test our code and strive to allow code design to be guided by these. Please add unit tests where possible in your solution. Feel free to use XCTest or, if it's your preference, a 3rd party utility like Quick/Nimble
 
-## iOS News App
+## Option 1: Take-home exercise
 
 Build an iOS application that shows the latest news from the United States, using the [newsapi.org](https://newsapi.org) service.
 
@@ -39,3 +40,15 @@ A: The minimum version of the app is iOS 13, and feel free to use Swift 5.2 and 
 
 Q: Can I use libraries, frameworks, CocoaPods etc?  
 A: Yes, but be prepared to justify why you did so.
+
+## Option 2: Share existing code
+
+If you have some existing iOS code that you would be prepared to share with us, we can look at that instead. The code should meet the following criteria:
+
+* It should be of a similar scale as the feature discussed in Option 1
+* It should demonstrate how you approach a problem
+* It should be something that you are able to discuss with us
+
+## Option 3: Pairing exercise
+
+Lastly, if you prefer, you may choose to carry out a "no preparation required" pairing exercise during the interview with our engineers.

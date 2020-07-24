@@ -17,8 +17,8 @@ If the user clicks on a news item it will navigate to a new screen displaying th
 
 The additional info are the number of **likes** and the number of **comments** the news item has.
 That information can be retrieved from two internal not authenticated endpoints: 
-    * `https://cn-news-info-api.herokuapp.com/likes/<ARTICLEID>` 
-    * `https://cn-news-info-api.herokuapp.com/comments/<ARTICLEID>`
+    * `https://cn-news-info-api.condenast.io/likes/<ARTICLEID>` 
+    * `https://cn-news-info-api.condenast.io/comments/<ARTICLEID>`
 
 The  `<ARTICLEID>`  is the article URL without the scheme and with the `/` replaced with a `-`.
 For the article `https://www.theverge.com/2020/7/21/21332300/nikon-z5-full-frame-mirrorless-camera-price-release-date-specs/index.html` the `ARTICLEID` is `www.theverge.com-2020-7-21-21332300-nikon-z5-full-frame-mirrorless-camera-price-release-date-specs-index.html`

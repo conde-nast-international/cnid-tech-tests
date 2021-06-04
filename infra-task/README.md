@@ -1,4 +1,4 @@
-# Interview
+# Infrastructure Interview Tech Task
 
 ## Context
 
@@ -12,13 +12,13 @@ We appreciate that your time is valuable, which is why we’ve designed this exe
 
 - An ability to handle code like a software engineer
 - Maintainability of solutions
-- Resilience, particularly to Chaotic Monkeys
-- Ability to develop applications locally in a consistent environments
-- Concise documentation
 - Containers
 - Infrastructure as Code
-- Monitoring, but you shouldn’t be concerned about it for now
-- CI/CD, again, don’t worry about this for this exercise
+- Monitoring
+- Consideration of CI/CD
+- Resilience, particularly to Chaotic Monkeys
+- Ability to develop applications locally in a consistent environments
+- Concise documentation (please include a README)
 
 ## Option 1
 
@@ -34,7 +34,7 @@ If you have some personal code that you would be prepared to share with us, we c
 - Ideally, it should involve an element of web development platform
 - It should demonstrate how you approach any particular problem
 - It should be something that you are able to discuss with us
-- It should cover as many of the points that we are looking for in option 1
+- It should cover most of the points that we are looking for in option 1
 
 ## Submission
 

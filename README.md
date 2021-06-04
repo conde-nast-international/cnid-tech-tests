@@ -3,9 +3,10 @@
 This is a coding exercise to help us assess candidates looking to join the team at Condé Nast. The task is intended to be completed at home. We appreciate the time you spend on it and we will go through your submitted work together when you're invited to meet us face-to-face.        
 
 ## Which test shall I pick?
- - [Software Engineer](se-test)
- - [Infrastructure Engineer](infra-task)   
- - [iOS Engineer](ios-task)   
+ - [Software Engineer](se-est)
+ - [Infrastructure/Devops Engineer](infra-task)   
+ - [iOS Engineer](ios-task) 
+ - [SRE](sre-task) 
 
 ## How to submit code
 We prefer to see your work as a GIT repo with commits from which the app is built up.

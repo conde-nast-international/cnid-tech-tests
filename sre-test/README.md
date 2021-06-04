@@ -40,10 +40,10 @@ Some things to consider when designing your solution:
 ## Option 2
 If you have some personal code that you would be prepared to share with us, we can assess that instead. The code should meet the following criteria:
 
-It should be your own work.
-It should demonstrate how you approach any particular problem
-It should be something that you are able to discuss with us
-It should cover as many of the points that we are looking for in option 1
+- It should be your own work.
+- It should cover the points that we are looking for in option 1
+- It should demonstrate how you approach any particular problem
+- It should be something that you are able to discuss with us
 
 
 ##  Submission

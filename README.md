@@ -6,7 +6,7 @@ This is a coding exercise to help us assess candidates looking to join the team 
  - [Software Engineer](se-est)
  - [Infrastructure/Devops Engineer](infra-task)   
  - [iOS Engineer](ios-task) 
- - [SRE](sre-task) 
+ - [SRE](sre-test) 
 
 ## How to submit code
 We prefer to see your work as a GIT repo with commits from which the app is built up.

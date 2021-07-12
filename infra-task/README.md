@@ -5,10 +5,10 @@
 In the final stage of our interview process we want to discover how you handle infrastructure day-to-day. In preparation for the interview we request you complete the following task.
 
 This is a coding exercise to help us assess candidates looking to join the Infrastructure Engineering team at Condé Nast. It is not a pass or fail, but it will be used as the basis for questions and discussion in the interview.   
-We appreciate that your time is valuable, which is why we’ve designed this exercise to be completed in around 1 hour. If you cannot spare the time, you may want to consider option 2.
+We appreciate that your time is valuable, which is why we’ve designed this exercise to be completed in around 1-2 hours. If you cannot spare the time, you may want to consider option 2.
 
  
-### Things we like
+### Things we want to see
 
 - An ability to handle code like a software engineer
 - Maintainability of solutions
@@ -16,13 +16,15 @@ We appreciate that your time is valuable, which is why we’ve designed this exe
 - Infrastructure as Code
 - Monitoring
 - Consideration of CI/CD
-- Resilience, particularly to Chaotic Monkeys
-- Ability to develop applications locally in a consistent environments
+- Resilience
+- Ability to develop applications locally in a consistent environment
 - Concise documentation (please include a README)
 
 ## Option 1
 
-Create a simple 'Hello World' web application (for example, node.js) and deploy it to a Cloud Infrastructure, such as an AWS account, using appropriate tools and best practices.  When deployed, the root url should display 'Hello World'. 
+Create a simple 'Hello World' web application (for example, node.js) and deploy it to a Cloud Infrastructure, such as an AWS account, using appropriate tools and best practices. 
+
+You are expected to demonstrate containerisation, pipelines and a minimal orchestration setup of your choice.  When deployed, the root url should display 'Hello World'. 
 
 ** Please note:  The application is not the important factor in this, it is the infrastructure we will want to discuss.**
 
@@ -38,4 +40,5 @@ If you have some personal code that you would be prepared to share with us, we c
 
 ## Submission
 
-You can submit your code however you want - send the details to your point of contact.  Please include a README containing any relevant information.
+Please submit everything as a github repo - send the details to your point of contact.  Please include a README containing any relevant information.
+You will be expected to screen share and walk us through your sumbission during the interview.

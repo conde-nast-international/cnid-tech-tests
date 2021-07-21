@@ -20,6 +20,8 @@ We appreciate that your time is valuable, which is why we’ve designed this exe
 - Ability to develop applications locally in a consistent environment
 - Concise documentation (please include a README)
 
+We are only interested in the code, you **do not** need to leave your project running and should not incur any aws costs in order to complete this.
+
 ## Option 1
 
 Create a simple 'Hello World' web application (for example, node.js) and deploy it to a Cloud Infrastructure, such as an AWS account, using appropriate tools and best practices. 

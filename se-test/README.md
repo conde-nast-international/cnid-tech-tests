@@ -1,7 +1,7 @@
 # Overview
 This task is intended for people who interview for our Software Engineer roles.
 
-Please make sure you read [our expectations](../README.md#what-we-are-looking-for) first before starting on any of the below options:   
+Please make sure you read [our expectations](../README.md#what-we-are-looking-for) first before starting on either of the below options:   
 
 ## Option 1
 
@@ -20,8 +20,8 @@ meet the following criteria:
 
 * It should be similar hours of your own work as with Option 1 (as opposed to others' or your team's work for example)
 * Ideally, it should be a web/mobile app that involves both client and server-side skills
-* It should demonstrate how you approach a problem with a simple solution that you're confident to walk us through in an interview scene (as opposed to sharing an app of 10k LOC for example) 
-* It should be something that's legit to share with us (as opposed to NDA protected stuff for example)
+* It should demonstrate how you approach a problem with a simple solution that you're confident to walk us through in an interview scene (as opposed to sharing a full app with 10k lines of code, for example)
+* It should be something you are permitted to share with us (e.g. not confidential or protected by NDA)
 
 ### Submission
 See ["how to submit your work"](../README.md#how-to-submit-code)

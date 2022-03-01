@@ -20,7 +20,7 @@ These points serve as a guide on what we look for in a code submission. Not all 
  - The solution fulfils the brief
  - There is some attempt at creating documentation
  - There is a README that instructs how to run the app locally
- - There are reasonably thorough tests coverage of your code (this can be unit/integration/e2e test cases)
+ - There is reasonably thorough test coverage of your code (this can be unit/integration/e2e test cases)
  - The file/folder structure is intuitive
  - Code style is consistent
  - Chosen technologies are appropriate

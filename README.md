@@ -19,9 +19,8 @@ Send the work to your **point of contact**.
 These points serve as a guide on what we look for in a code submission. Not all points have to be met
  - The solution fulfils the brief
  - There is some attempt at creating documentation
- - There is a README that instructs how to run the app
- - The app runs when you follow the README, or `npm start`, or run the iOS app
- - There are reasonably thorough tests
+ - There is a README that instructs how to run the app locally
+ - There are reasonably thorough tests coverage of your code (this can be unit/integration/e2e test cases)
  - The file/folder structure is intuitive
  - Code style is consistent
  - Chosen technologies are appropriate
